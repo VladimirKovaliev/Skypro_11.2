@@ -7,4 +7,3 @@ def upper_first_letter(text):
     words = text.split(' ')
     upper_first_letter_words = [word.title() for word in words]
     return ' '.join(upper_first_letter_words)
-
